@@ -1,22 +1,22 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 function Beam({ index }: { index: number }) {
   const flag = index % 8 === 0;
+  const duration = flag ? "7s" : "11s";
+  const delay = `${index * 0.5}s`;
+
   return (
     <div
-      className={cn("h-full animate-meteor", {
-        "[--duration:7s]": flag,
-        "[--duration:11s]": !flag,
-      })}
+      className={cn("relative h-full animate-meteor")}
       style={{
         width: "6px",
-        transform: "translateY(-20%)",
-        "--delay": `${index * 0.5}s`,
-      }}
+        ["--duration" as string]: duration,
+        ["--delay" as string]: delay,
+        animationDelay: delay,
+      } as React.CSSProperties}
     >
       <div
         style={{
@@ -67,7 +67,7 @@ function Background() {
   return (
     <div
       ref={containerRef}
-      className="-z-1 absolute inset-0 flex h-full w-full flex-row justify-between bg-gradient-to-t from-indigo-900 to-indigo-950"
+      className="absolute inset-0 flex h-full w-full flex-row justify-between bg-gradient-to-t from-indigo-900 to-indigo-950 overflow-hidden"
     >
       <div
         style={{

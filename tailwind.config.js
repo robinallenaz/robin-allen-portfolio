@@ -18,6 +18,15 @@ module.exports = {
       backgroundImage: {
         'space-gradient': 'linear-gradient(to bottom right, #0B0B1E, #1A1B4B)',
       },
+      animation: {
+        'meteor': 'meteor linear var(--duration, 9s) infinite',
+      },
+      keyframes: {
+        meteor: {
+          '0%': { transform: 'translateY(-200%)' },
+          '100%': { transform: 'translateY(200%)' },
+        },
+      },
     },
   },
   plugins: [],
