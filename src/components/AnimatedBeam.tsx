@@ -27,7 +27,7 @@ function Beam({ index }: { index: number }) {
           "h-12": !flag,
         })}
       >
-        <div className="h-full w-full bg-gradient-to-b from-neutral-50/50 via-neutral-100 via-75% to-neutral-50" />
+        <div className="h-full w-full bg-gradient-to-b from-github-accent/30 via-github-accent via-75% to-github-accent/30" />
       </div>
     </div>
   );
@@ -67,17 +67,17 @@ function Background() {
   return (
     <div
       ref={containerRef}
-      className="absolute inset-0 flex h-full w-full flex-row justify-between bg-gradient-to-t from-indigo-900 to-indigo-950 overflow-hidden"
+      className="absolute inset-0 flex h-full w-full flex-row justify-between bg-gradient-to-t from-github-dark to-github-darker overflow-hidden"
     >
       <div
         style={{
           background:
-            "radial-gradient(50% 50% at 50% 50%,#072a39 0%,rgb(7,42,57) 50%,rgba(7,42,57,0) 100%)",
+            "radial-gradient(50% 50% at 50% 50%,rgba(47, 129, 247, 0.05) 0%,rgba(47, 129, 247, 0.02) 50%,rgba(47, 129, 247, 0) 100%)",
         }}
         className="absolute inset-0 top-1/2 h-full w-full rounded-full opacity-40"
       />
       {Array.from({ length: count }, (_, i) => (
-        <div key={i} className="relative h-full w-px rotate-12 bg-gray-100 bg-opacity-10">
+        <div key={i} className="relative h-full w-px rotate-12 bg-github-border bg-opacity-10">
           {(1 + i) % 4 === 0 && <Beam index={i + 1} />}
         </div>
       ))}
@@ -93,7 +93,7 @@ export default function AnimatedBeam({
   className?: string;
 }) {
   return (
-    <div className={cn("storybook-fix relative w-full overflow-hidden", className)}>
+    <div className={cn("relative w-full overflow-hidden", className)}>
       <Background />
       <div className="relative h-full w-full">{children}</div>
     </div>

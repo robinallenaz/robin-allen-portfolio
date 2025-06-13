@@ -6,17 +6,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'space-dark': '#0B0B1E',
-        'space-light': '#1A1B4B',
-        'accent-primary': '#7C3AED',
-        'accent-secondary': '#60A5FA',
-        'text-primary': '#F3F4F6',
+        'github-dark': '#0d1117',
+        'github-darker': '#010409',
+        'github-border': '#30363d',
+        'github-accent': '#2f81f7',
+        'github-text': '#c9d1d9',
+        'github-secondary': '#8b949e',
+        'github-success': '#238636',
+        'github-muted': '#21262d',
       },
       backdropBlur: {
         'glass': '8px',
       },
       backgroundImage: {
-        'space-gradient': 'linear-gradient(to bottom right, #0B0B1E, #1A1B4B)',
+        'github-gradient': 'linear-gradient(to bottom right, #0d1117, #010409)',
       },
       animation: {
         'meteor': 'meteor linear var(--duration, 9s) infinite',

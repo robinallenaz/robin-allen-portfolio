@@ -5,13 +5,13 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-github-dark">
       <AnimatedBeam>
         <div className="relative z-10">
           {/* Navigation */}
-          <nav className="fixed w-full z-50 glass-panel px-6 py-4">
+          <nav className="fixed w-full z-50 bg-github-darker/80 backdrop-blur-glass border-b border-github-border px-6 py-4">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-github-accent to-github-success bg-clip-text text-transparent">
                 Robin Allen
               </h1>
               
@@ -24,7 +24,7 @@ function App() {
 
               {/* Mobile menu button */}
               <button 
-                className="md:hidden p-2 hover:bg-white/10 rounded-md"
+                className="md:hidden p-2 hover:bg-github-muted rounded-md text-github-text"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ function App() {
 
             {/* Mobile menu */}
             {isMenuOpen && (
-              <div className="md:hidden absolute top-full left-0 right-0 glass-panel mt-2 py-4">
+              <div className="md:hidden absolute top-full left-0 right-0 bg-github-darker/80 backdrop-blur-glass border-b border-github-border mt-2 py-4">
                 <div className="flex flex-col space-y-4 px-6">
                   <a href="#home" className="nav-link">Home</a>
                   <a href="#projects" className="nav-link">Projects</a>
@@ -49,10 +49,10 @@ function App() {
           {/* Hero Section */}
           <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
             <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-github-text">
                 Full Stack Developer
               </h1>
-              <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl">
+              <p className="text-lg md:text-xl text-github-secondary mb-8 max-w-2xl">
                 Crafting beautiful and functional web experiences with modern technologies
               </p>
               <a href="#projects" className="btn-primary">
