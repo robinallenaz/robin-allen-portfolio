@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AnimatedBeam from './components/AnimatedBeam';
+import Skills from './components/Skills';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
               
               <div className="hidden md:flex space-x-6">
                 <a href="#home" className="nav-link">Home</a>
+                <a href="#skills" className="nav-link">Skills</a>
                 <a href="#projects" className="nav-link">Projects</a>
                 <a href="#about" className="nav-link">About</a>
                 <a href="#contact" className="nav-link">Contact</a>
@@ -38,6 +40,7 @@ function App() {
               <div className="md:hidden absolute top-full left-0 right-0 bg-github-darker/80 backdrop-blur-glass border-b border-github-border mt-2 py-4">
                 <div className="flex flex-col space-y-4 px-6">
                   <a href="#home" className="nav-link">Home</a>
+                  <a href="#skills" className="nav-link">Skills</a>
                   <a href="#projects" className="nav-link">Projects</a>
                   <a href="#about" className="nav-link">About</a>
                   <a href="#contact" className="nav-link">Contact</a>
@@ -60,6 +63,9 @@ function App() {
               </a>
             </div>
           </section>
+
+          {/* Skills Section */}
+          <Skills />
         </div>
       </AnimatedBeam>
     </div>
