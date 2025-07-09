@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AnimatedBeam from './components/AnimatedBeam';
 import Skills from './components/Skills';
 import ProjectShowcase from './components/ProjectShowcase';
+import Contact from './components/Contact';
 import { projects } from './lib/data';
 
 function App() {
@@ -111,6 +112,9 @@ function App() {
                 ))}
               </div>
             </section>
+
+            {/* Contact Section */}
+            <Contact />
           </main>
         </div>
       </AnimatedBeam>

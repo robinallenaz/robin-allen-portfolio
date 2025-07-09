@@ -132,6 +132,12 @@ export const projects: Project[] = [
   }
 ];
 
+export const contactLinks = {
+  github: "https://github.com/robinallenaz",
+  linkedin: "https://www.linkedin.com/in/robin-allen-az/",
+  email: "robinallenaz@gmail.com"
+};
+
 export const aboutYou = {
   location: "Katy, TX",
   email: "robin.allen.az@gmail.com",
