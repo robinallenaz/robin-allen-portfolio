@@ -20,13 +20,13 @@ function App() {
               <div className="flex items-center justify-between h-16">
                 <span className="text-xl font-bold text-github-text">Robin Allen</span>
                 <div className="hidden sm:flex space-x-8">
-                  <a href="#skills" className="text-github-text hover:text-github-success transition-colors">Skills</a>
-                  <a href="#projects" className="text-github-text hover:text-github-success transition-colors">Projects</a>
-                  <a href="#contact" className="text-github-text hover:text-github-success transition-colors">Contact</a>
+                  <a href="#skills" className="text-github-text hover:text-pink-300 transition-colors">Skills</a>
+                  <a href="#projects" className="text-github-text hover:text-pink-300 transition-colors">Projects</a>
+                  <a href="#contact" className="text-github-text hover:text-pink-300 transition-colors">Contact</a>
                 </div>
                 <button
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  className="sm:hidden text-github-text hover:text-github-success transition-colors"
+                  className="sm:hidden text-github-text hover:text-pink-300 transition-colors"
                 >
                   <svg
                     className="h-6 w-6"
