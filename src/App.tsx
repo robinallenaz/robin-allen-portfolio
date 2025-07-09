@@ -4,6 +4,7 @@ import Skills from './components/Skills';
 import ProjectShowcase from './components/ProjectShowcase';
 import Contact from './components/Contact';
 import { projects } from './lib/data';
+import TypedTitle from './components/TypedTitle';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -86,13 +87,11 @@ function App() {
             {/* Hero Section */}
             <section id="home" className="min-h-[90vh] flex items-center justify-center pt-4">
               <div className="text-center">
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 pride-gradient pride-glow">
-                  Full Stack Developer
-                </h1>
+                <TypedTitle />
                 <p className="text-lg md:text-xl text-github-secondary mb-6 max-w-2xl pride-gradient">
                   Crafting beautiful and functional web experiences with modern technologies
                 </p>
-                <a href="#projects" className="btn-primary">
+                <a href="#projects" className="btn-primary pride-border">
                   View My Work
                 </a>
               </div>
