@@ -1,13 +1,20 @@
 import {
   SiTypescript,
   SiReact,
-  SiNextdotjs,
   SiNodedotjs,
-  SiTailwindcss,
-  SiGit,
-  SiJavascript,
+  SiExpress,
+  SiMongodb,
   SiHtml5,
   SiCss3,
+  SiJavascript,
+  SiNpm,
+  SiGit,
+  SiRedux,
+  SiAzuredevops,
+  SiJira,
+  SiFigma,
+  SiPython,
+  SiRubyonrails,
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -19,15 +26,15 @@ interface Skill {
 export const frontend_skills: Skill[] = [
   {
     icon: SiReact,
-    text: "React",
+    text: "React.js",
+  },
+  {
+    icon: SiJavascript,
+    text: "JavaScript (ES6+)",
   },
   {
     icon: SiTypescript,
     text: "TypeScript",
-  },
-  {
-    icon: SiJavascript,
-    text: "JavaScript",
   },
   {
     icon: SiHtml5,
@@ -38,22 +45,53 @@ export const frontend_skills: Skill[] = [
     text: "CSS3",
   },
   {
-    icon: SiTailwindcss,
-    text: "Tailwind CSS",
+    icon: SiRedux,
+    text: "Redux",
   },
 ];
 
-// We'll add more skill categories based on your resume
 export const backend_skills: Skill[] = [
   {
     icon: SiNodedotjs,
     text: "Node.js",
+  },
+  {
+    icon: SiExpress,
+    text: "Express.js",
+  },
+  {
+    icon: SiMongodb,
+    text: "MongoDB",
+  },
+  {
+    icon: SiPython,
+    text: "Python",
+  },
+  {
+    icon: SiRubyonrails,
+    text: "Ruby on Rails",
   },
 ];
 
 export const tools_and_platforms: Skill[] = [
   {
     icon: SiGit,
-    text: "Git",
+    text: "Git & GitHub",
+  },
+  {
+    icon: SiNpm,
+    text: "npm",
+  },
+  {
+    icon: SiAzuredevops,
+    text: "Azure DevOps",
+  },
+  {
+    icon: SiJira,
+    text: "Jira",
+  },
+  {
+    icon: SiFigma,
+    text: "Figma",
   },
 ];
