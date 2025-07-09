@@ -5,7 +5,7 @@ import { contactLinks } from '../lib/data';
 export default function Contact() {
   return (
     <section id="contact" className="py-20">
-      <h2 className="text-3xl font-bold text-github-text mb-8">
+      <h2 className="text-3xl font-bold text-github-text mb-8 text-center">
         Get In Touch
       </h2>
       <div className="flex flex-col items-center space-y-6">
