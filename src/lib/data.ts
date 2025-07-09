@@ -95,3 +95,46 @@ export const tools_and_platforms: Skill[] = [
     text: "Figma",
   },
 ];
+
+export interface Project {
+  title: string;
+  description: string;
+  techStack: string[];
+  points: string[];
+  github?: string;
+  demo?: string;
+}
+
+export const projects: Project[] = [
+  {
+    title: "Pet Health Tracker",
+    description: "A comprehensive pet health monitoring platform designed to help pet owners track, visualize, and manage their pets' well-being through an intuitive and modern interface.",
+    techStack: ["React", "Node.js", "Express", "PostgreSQL", "CSS"],
+    points: [
+      "Implemented a modern single-page application using React and Node.js with responsive design",
+      "Built a robust REST API system with PostgreSQL for scalable data management",
+      "Created dynamic data visualization components for health trend analysis",
+      "Designed an intuitive user interface with color-coded elements for improved UX"
+    ],
+    github: "https://github.com/Rainbowfish-Tech-Collab/Pet-Health-Tracker",
+  },
+  {
+    title: "Nature's Edge Wildlife Rescue Portal",
+    description: "A Ruby on Rails donor management system built during the 2024 Opportunity Hack hackathon for Nature's Edge Wildlife and Reptile Rescue, featuring modern UI with Tailwind CSS and PostgreSQL database.",
+    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS", "RSpec", "Devise"],
+    points: [
+      "Collaborated with a team of 5 developers to build a full-featured donor management system in under 24 hours",
+      "Implemented responsive UI components using Rails partials and Tailwind CSS best practices",
+      "Set up comprehensive test infrastructure using RSpec, FactoryBot, and Email Spec",
+      "Integrated payment processing and email service APIs for automated donor communications"
+    ],
+    github: "https://github.com/2024-Arizona-Opportunity-Hack/HeatSyncers-Nature-sEdgeWildlife-Nature-sEdgeWildlifeandReptileRescueDigitalTransformation",
+  }
+];
+
+export const aboutYou = {
+  location: "Katy, TX",
+  email: "robin.allen.az@gmail.com",
+  github: "https://github.com/robinallenaz",
+  linkedin: "https://www.linkedin.com/in/robin-allen-software-engineer",
+};
