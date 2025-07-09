@@ -89,10 +89,10 @@ function App() {
             <section id="home" className="min-h-[90vh] flex items-center justify-center pt-4">
               <div className="text-center">
                 <TypedTitle />
-                <p className="text-lg md:text-xl text-github-secondary mb-6 max-w-2xl pride-gradient">
-                  Crafting beautiful and functional web experiences with modern technologies
+                <p className="text-lg md:text-xl text-white/80 mb-6 max-w-2xl">
+                  Building tech for social good - from pet health platforms to nonprofit portals
                 </p>
-                <a href="#projects" className="btn-primary pride-border">
+                <a href="#projects" className="btn-primary">
                   View My Work
                 </a>
               </div>
