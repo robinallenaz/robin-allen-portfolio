@@ -82,14 +82,14 @@ function App() {
           </nav>
 
           {/* Main content */}
-          <main className="max-w-5xl mx-auto px-4 py-8">
+          <main className="max-w-5xl mx-auto px-4 py-4">
             {/* Hero Section */}
-            <section id="home" className="min-h-screen flex items-center justify-center pt-20">
+            <section id="home" className="min-h-[90vh] flex items-center justify-center pt-4">
               <div className="text-center">
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 text-github-text">
+                <h1 className="text-4xl md:text-6xl font-bold mb-6 pride-gradient pride-glow">
                   Full Stack Developer
                 </h1>
-                <p className="text-lg md:text-xl text-github-secondary mb-8 max-w-2xl">
+                <p className="text-lg md:text-xl text-github-secondary mb-6 max-w-2xl pride-gradient">
                   Crafting beautiful and functional web experiences with modern technologies
                 </p>
                 <a href="#projects" className="btn-primary">
