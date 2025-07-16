@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RobinAllenDevPortfolio/static/css/main.a6c3d1ac.css",
+    "main.js": "/RobinAllenDevPortfolio/static/js/main.d3bcac9c.js",
+    "static/js/453.1407b060.chunk.js": "/RobinAllenDevPortfolio/static/js/453.1407b060.chunk.js",
+    "static/media/github+rainbow-_0px.svg": "/RobinAllenDevPortfolio/static/media/github+rainbow-1330289839139440796_0px.157fef45ff89bfdcfc1b9f21dea4cd8e.svg",
+    "index.html": "/RobinAllenDevPortfolio/index.html",
+    "main.a6c3d1ac.css.map": "/RobinAllenDevPortfolio/static/css/main.a6c3d1ac.css.map",
+    "main.d3bcac9c.js.map": "/RobinAllenDevPortfolio/static/js/main.d3bcac9c.js.map",
+    "453.1407b060.chunk.js.map": "/RobinAllenDevPortfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6c3d1ac.css",
+    "static/js/main.d3bcac9c.js"
+  ]
+}
