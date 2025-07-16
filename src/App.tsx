@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import { projects } from './lib/data';
 import TypedTitle from './components/TypedTitle';
 import GithubIcon from './components/GithubIcon';
+import PhotoGallery from './components/PhotoGallery';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -100,6 +101,9 @@ function App() {
 
             {/* Skills Section */}
             <Skills />
+
+            {/* Photo Gallery Section */}
+            <PhotoGallery />
 
             {/* Projects Section */}
             <section id="projects" className="py-20">
