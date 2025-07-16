@@ -1,29 +1,55 @@
+# Robin Allen's Portfolio
 
-# Robin Allen's Web Development Portfolio
+🌐 [View Live Website](https://robinallenaz.github.io/RobinAllenDevPortfolio)
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, showcasing my web development projects and skills.
+A modern, responsive portfolio showcasing my journey in software development, community involvement, and technical expertise. Built with React, TypeScript, and Tailwind CSS.
 
-## 🛠️ Built With
+## 🌟 Featured Projects
 
-- React 18
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- HeroIcons
-- React Icons
+### Pet Health Tracker
+A comprehensive pet health monitoring platform designed to help pet owners track and manage their pets' well-being through an intuitive interface.
+- React & Node.js with responsive design
+- PostgreSQL for scalable data management
+- Dynamic health trend visualization
+- Intuitive UX with color-coded elements
 
-## 🚀 Getting Started
+### Nature's Edge Wildlife Rescue Portal
+A Ruby on Rails donor management system built during the 2024 Opportunity Hack hackathon.
+- Full-featured donor management system built in 24 hours
+- Rails & PostgreSQL backend
+- Responsive UI with Tailwind CSS
+- Integrated payment processing and automated communications
 
-### Prerequisites
+## 🛠️ Technical Skills
 
-- Node.js (LTS version recommended)
-- npm or yarn
+### Frontend
+- React.js
+- TypeScript/JavaScript (ES6+)
+- HTML5/CSS3
+- Redux
 
-### Installation
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Python
+
+### Tools & Platforms
+- Git & GitHub
+- npm
+- Azure DevOps
+- Jira
+- Figma
+
+## 🤝 Community Involvement
+- Active participant in hackathons, including Opportunity Hack 2024
+- Community engagement and volunteer work as Treasurer of the Katy Pride Board
+
+## 🚀 Local Development
 
 1. Clone the repository
 ```bash
-git clone [https://github.com/robinallenaz/robin-allen-portfolio]
+git clone https://github.com/robinallenaz/RobinAllenDevPortfolio.git
 cd portfolio
 ```
 
@@ -37,21 +63,11 @@ npm install
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
-
-## 📦 Building for Production
-
-To create a production build:
-
+## 📦 Deployment
+Deploy to GitHub Pages:
 ```bash
-npm run build
-```
-
-## 🧪 Running Tests
-
-```bash
-npm test
+npm run deploy
 ```
 
 ---
-Built with ❤️ by Robin Allen
+Built with ❤️ by Robin Allen | [View Portfolio](https://robinallenaz.github.io/RobinAllenDevPortfolio)
